@@ -1,6 +1,6 @@
-# Netlify: ビルド不要の静的サイト。リポジトリ直下の index.html をそのまま公開する
+# Netlify: ビルド不要の静的サイト。site/ フォルダだけを配信する（src/ や README は配信されない）
 [build]
-  publish = "."
+  publish = "site"
   command = ""
 
 [[headers]]

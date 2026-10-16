@@ -1,0 +1,4 @@
+# sh src/build.sh が作る中間生成物（公開物は site/index.html）
+src/index.html
+src/page.html
+.DS_Store
